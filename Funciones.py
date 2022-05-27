@@ -1,3 +1,6 @@
+from Inputs import alturaCM, edad, genero2, peso1
+
+
 def imc(a,b):
     return a / (b * b)
 
@@ -21,4 +24,13 @@ def adelgazando(a,b,c,d):
         return print(f"Se recomienda que se consuma entre {g2} y {g} calorias al dia.")
     else:
         return print(f"Se recomiendo que se consuma entre {f} y {f2} calorias al dia.")
+
+def tasaMB2():
+    peso = peso1()
+    altura = alturaCM()
+    edad1 = edad()
+    gender = genero2()
+    tmb2 = tmb(peso,altura,edad1,gender)
+    return tmb2
+
     

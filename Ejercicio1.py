@@ -1,8 +1,9 @@
 from Funciones import imc
+from Inputs import alturaM, peso1
 
 def indiceMC():
-        peso = float(input("Ingresa tu peso: "))
-        altura = float(input("Ingresa tu altura: "))
+        peso = peso1()
+        altura = alturaM()
         imc2 = imc(peso,altura)
         peso = " "
         if imc2 < 16:

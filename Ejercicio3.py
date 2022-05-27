@@ -10,27 +10,16 @@ Donde valor_genero es un valor que depende del género de la persona: en caso de
 masculino, el valor es 5, mientas que es -161 en caso de ser femenino.
 """
 
-from Funciones import tmb
+from Funciones import tasaMB2
 
 
 def tasaMB():
-        peso = float(input("Ingresa tu peso: "))
-        altura = int(input("Ingresa tu altura en centimetros: "))
-        edad = int(input("ingresa tu edad: "))
-        generoReal = ""
-        while True:
-            genero = input("ingresa M para masculino o F para femenino")
-            if "M" == genero or genero == "F":
-                generoReal = genero
-                break
-            else:
-                print("Ingresa un genero correcto.")
-        gender = -161
-        if generoReal == "M":
-            gender = 5
-        tmb2 = tmb(peso,altura,edad,gender)
+        tmb2 = tasaMB2()
         return tmb2
-        
 
-print(f"La tasa metabólica basal es de: {tasaMB()} ")
+print(tasaMB() )
+
+
+
+
         

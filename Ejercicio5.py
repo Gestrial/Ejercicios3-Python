@@ -6,11 +6,11 @@ opción, se recomienda que las personas ingieran a diario entre un 15% a 20% men
 calorías de las que arroja la TMB. Lo anterior sugiere que una persona que desee
 adelgazar debe consumir entre 80% y 85% de las calorías que representa la TMB.
 """
-from Ejercicio3 import tasaMB
-from Funciones import adelgazando
+
+from Funciones import adelgazando,tasaMB2
 
 def adelgazar():
-    a = tasaMB()
+    a = tasaMB2()
     opcion = input("Que desea hacer:\nA) Reducir calorías. \nB) Aumentar gasto calórico. \nRespuesta: ")
     valor = ""
     valor2 = ""
@@ -23,7 +23,7 @@ def adelgazar():
         valor = 0.80
         valor2 = 0.85
         symbol = "+"
-    b = adelgazando(a,valor,symbol)
+    b = adelgazando(a,valor,symbol,valor2)
     return b
 
 adelgazar()

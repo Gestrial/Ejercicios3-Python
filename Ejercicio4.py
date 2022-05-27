@@ -14,12 +14,11 @@ persona semanalmente y toma los siguientes valores:
  1.9: atleta (entrenamientos mañana y tarde.
 """
 
-from Ejercicio3 import tasaMB
-from Funciones import tmba
+from Funciones import tasaMB2, tmba
 
 
 def tmb_():
-        tmb = tasaMB()
+        tmb = tasaMB2()
         ejercicio = input("Cuanto ejercicio realiza por semana:\n A) Poco. \nB) Ligero. \nC) Moderado. \nD) Deportista \nE) Atleta \n[A/B/C/D/E]? : ")
         actividad = -1
         if ejercicio == "A":

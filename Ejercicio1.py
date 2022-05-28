@@ -25,7 +25,7 @@ def indiceMC():
         else:
             return print(f"Su imc es de: {imc2}, Obesidad tipo IV o extrema")
 
-indiceMC()
+
     
         
 

@@ -32,6 +32,5 @@ def tmb_():
         elif ejercicio == "E":
             actividad = 1.9
         tmb_2 = tmba(tmb,actividad)
+        print(f" asdasdsda {tmb_2} ")
         return tmb_2
-
-print(tmb_())

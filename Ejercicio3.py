@@ -15,7 +15,7 @@ from Funciones import tasaMB2
 
 def tasaMB():
         tmb2 = tasaMB2()
-        print(f"asdasdsad {tmb2} ")
+        print(f"La tasa metabolica basal es de: {tmb2} ")
         return tmb2
 
 

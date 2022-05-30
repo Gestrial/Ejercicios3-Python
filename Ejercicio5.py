@@ -24,7 +24,7 @@ def adelgazar():
         valor2 = 0.85
         symbol = "+"
     b = adelgazando(a,valor,symbol,valor2)
-    print(f" {b} ")
+    print(f"Calorías diarias para adelgazar: {b} ")
     return b
 
 

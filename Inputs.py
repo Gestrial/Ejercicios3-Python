@@ -32,11 +32,6 @@ def edad():
     age = int(input("Ingrese su edad: "))
     return age
 
-def asd():
+def choose():
     opcion = int(input("Elija que desea calcular segun su numero: \n1)IMC\n2)GC\n3)TMB\n4)TMB_AF\n5)CA\n"))
     return opcion
-
-
-def asd2():
-    opcion3 = input("Desea calcular algo mas ? S/N ")
-    return opcion3

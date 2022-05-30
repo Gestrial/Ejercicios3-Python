@@ -8,12 +8,12 @@ print("--------------TMB_AF = TASA METABOLICA SEGUN ACTIVIDAD FISICA----")
 print("--------------CA = CALORIAS DIARIAS PARA ADELGAZAR---------------")
 print("-----------------------------------------------------------------")
 
-from Inputs import asd
+from Inputs import choose
 
 
 def main():
     while True:
-        opcion2 = asd()
+        opcion2 = choose()
         if opcion2 == 1:
             from Ejercicio1 import indiceMC
             indiceMC()

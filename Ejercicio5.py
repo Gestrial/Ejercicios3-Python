@@ -8,10 +8,11 @@ adelgazar debe consumir entre 80% y 85% de las calorías que representa la TMB.
 """
 
 from Funciones import adelgazando,tasaMB2
+from Inputs import selector
 
 def adelgazar():
     a = tasaMB2()
-    opcion = input("Que desea hacer:\nA) Reducir calorías. \nB) Aumentar gasto calórico. \nRespuesta: ")
+    opcion = selector()
     valor = ""
     valor2 = ""
     symbol = ""
@@ -24,7 +25,6 @@ def adelgazar():
         valor2 = 0.85
         symbol = "+"
     b = adelgazando(a,valor,symbol,valor2)
-    print(f"Calorías diarias para adelgazar: {b} ")
     return b
 
 

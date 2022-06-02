@@ -8,7 +8,7 @@ print("--------------TMB_AF = TASA METABOLICA SEGUN ACTIVIDAD FISICA----")
 print("--------------CA = CALORIAS DIARIAS PARA ADELGAZAR---------------")
 print("-----------------------------------------------------------------")
 
-from Inputs import choose
+from Inputs import choose, pregunta
 
 
 def main():
@@ -30,8 +30,9 @@ def main():
             from Ejercicio5 import adelgazar
             adelgazar()
 
-        opcion3 = input("Desea calcular algo mas ? S/N ")
+        opcion3 = pregunta()
         if opcion3 == "N":
+            print("Hasta la proxima.")
             break
         elif opcion3 == "S":
             continue

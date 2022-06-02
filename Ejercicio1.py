@@ -5,7 +5,6 @@ def indiceMC():
         peso = peso1()
         altura = alturaM()
         imc2 = imc(peso,altura)
-        peso = " "
         if imc2 < 16:
             return print(f"Su imc es de: {imc2}, Delgadez severa")
         elif 16 > imc2 and imc2 < 16.99:

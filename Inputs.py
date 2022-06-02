@@ -16,7 +16,7 @@ def peso1():
 def genero1():
     genero2 = input("Ingresa tu genero, M para masculino o F para femenino: ")
     gender = 0
-    if genero2 == "M":
+    if genero2.upper() == "M":
         gender = 10.8
     return gender
 
@@ -24,7 +24,7 @@ def genero1():
 def genero2():
     genero2 = input("Ingresa tu genero, M para masculino o F para femenino: ")
     gender = -161
-    if genero2 == "M":
+    if genero2.upper() == "M":
         gender = 5
     return gender
 
@@ -35,24 +35,36 @@ def edad():
 
 
 def choose():
-    opcion = int(input("Elija que desea calcular segun su numero: \n1)IMC\n2)GC\n3)TMB\n4)TMB_AF\n5)CA\n"))
-    return opcion
+    while True:
+        opcion = int(input("Elija que desea calcular segun su numero: \n1)IMC\n2)GC\n3)TMB\n4)TMB_AF\n5)CA\n"))
+        if opcion == 1 or opcion == 2 or opcion == 3 or opcion == 4 or opcion == 5:
+            return opcion
+        else:
+            print("Ingrese una opcion correcta porfavor.")
+
+def ejercitarse():
+    while True:
+        a = input("Cuanto ejercicio realiza por semana:\n A) Poco. \nB) Ligero. \nC) Moderado. \nD) Deportista \nE) Atleta \n[A/B/C/D/E]? : ")
+        if a.upper() == "A" or a.upper() == "B" or a.upper() == "C" or a.upper() == "D" or a.upper() == "E":
+            return a.upper()
+        else:
+            print("Ingrese una opcion correcta porfavor.")
 
 
 def selector():
     while True:
         rr = input("Que desea hacer:\nA) Reducir calorías. \nB) Aumentar gasto calórico. \nRespuesta: ")
-        if rr == "A" or rr == "B":
-            return rr
+        if rr.upper() == "A" or rr.upper() == "B":
+            return rr.upper()
         else:
-            print("Ingrese un A o B porfavor.")
+            print("Ingrese una opcion correcta porfavor.")
         
             
 def pregunta():
     while True:
         a = input("Desea calcular algo mas ? S/N ")
         if a.upper() == "S" or a.upper() == "N":
-            return a
+            return a.upper()
         else:
-            print("Ingresa una opcion correcta.")
+            print("Ingresa una opcion correcta porfavor.")
             continue

@@ -1,4 +1,4 @@
-from Inputs import alturaCM, edad, genero2, peso1
+from Inputs import alturaCM, edad, genero1, genero2, peso1
 
 
 def imc(a,b):
@@ -30,6 +30,14 @@ def tasaMB2():
     altura = alturaCM()
     edad1 = edad()
     gender = genero2()
+    tmb2 = tmb(peso,altura,edad1,gender)
+    return tmb2
+
+def tasaMB3():
+    peso = peso1()
+    altura = alturaCM()
+    edad1 = edad()
+    gender = genero1()
     tmb2 = tmb(peso,altura,edad1,gender)
     return tmb2
 

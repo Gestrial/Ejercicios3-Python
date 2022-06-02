@@ -28,7 +28,7 @@ def tmb_():
         elif ejercicio == "C":
             actividad = 1.55
         elif ejercicio == "D":
-            actividad = 1.72
+            actividad = 1.725
         elif ejercicio == "E":
             actividad = 1.9
         tmb_2 = tmba(tmb,actividad)

@@ -22,8 +22,6 @@ def genero2():
     genero2 = input("Ingresa tu genero, M para masculino o F para femenino: ")
     gender = -161
     if genero2 == "M":
-        gender = 10.8
-    else:
         gender = 5
     return gender
 

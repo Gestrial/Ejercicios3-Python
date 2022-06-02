@@ -1,6 +1,7 @@
 from Funciones import imc,gc
 from Inputs import alturaM, edad, genero1, peso1
 
+# EJECUTAR DESDE MAIN
 
 def porcentajeGC():
         peso = peso1()

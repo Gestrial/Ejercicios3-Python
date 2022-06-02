@@ -1,5 +1,6 @@
 from Funciones import tasaMB2
 
+# EJECUTAR DESDE MAIN
 
 def tasaMB():
         tmb2 = tasaMB2()

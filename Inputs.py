@@ -1,3 +1,5 @@
+#ARCHIVO DE INPUTS
+
 def alturaM():
     a = float(input("Ingresa tu altura en metros: "))
     return a

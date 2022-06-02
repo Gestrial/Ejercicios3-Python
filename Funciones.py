@@ -1,5 +1,6 @@
 from Inputs import alturaCM, edad, genero1, genero2, peso1
 
+#FUNCIONES DE CALCULO
 
 def imc(a,b):
     return a / (b * b)

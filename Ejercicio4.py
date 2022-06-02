@@ -1,6 +1,7 @@
 from Funciones import tasaMB2, tmba
 from Inputs import ejercitarse
 
+# EJECUTAR DESDE MAIN
 
 def tmb_():
         tmb = tasaMB2()

@@ -1,14 +1,7 @@
-"""
-Cálculo de las calorías diarias para adelgazar
-En general, si las personas desean adelgazar deben reducir las calorías que ingieren a
-diario y/o deben aumentar el gasto calórico haciendo más deporte. Si se escoge la primera
-opción, se recomienda que las personas ingieran a diario entre un 15% a 20% menos
-calorías de las que arroja la TMB. Lo anterior sugiere que una persona que desee
-adelgazar debe consumir entre 80% y 85% de las calorías que representa la TMB.
-"""
-
 from Funciones import adelgazando,tasaMB2
 from Inputs import selector
+
+# EJECUTAR DESDE MAIN
 
 def adelgazar():
     a = tasaMB2()

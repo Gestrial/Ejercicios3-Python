@@ -1,6 +1,8 @@
 from Funciones import imc
 from Inputs import alturaM, peso1
 
+# EJECUTAR DESDE MAIN
+
 def indiceMC():
         peso = peso1()
         altura = alturaM()
